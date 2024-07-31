@@ -53,3 +53,4 @@ full_json = '''{"result": [{ 	"name": "Robert McNally", "city": "Hawaii", 	"type
 
 print(search(filter_query, full_json)) 
 #Should print [{'name': 'Robert McNally', 'city': 'Hawaii', 'type': 'user', 'gender': 'M'}]
+#As it's the only entry that meets the filters (type = user, gender = M)
