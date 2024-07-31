@@ -46,5 +46,10 @@ def search(filter_query, full_json):
 
 #Example of input
 filter_query = "type=user&gender=M"
-full_json = '{"result": [{ 	"name": "Robert McNally", 	"city": "Hawaii", 	"type": "user", "gender": "M"},{ 	"name": "Elizabeth Minelli", 	"city": "Hawaii", 	"type": "user", "gender": "F"}, { 	"name": "Friendly Neighborhood Coder", 	"city": "Trivandrum", 	"type": "page" },{ 	"name": "Coddy Official", 	"city": "Haifa", 	"type": "page" }]}'
-print(search(filter_query, full_json))
+full_json = '''{"result": [{ 	"name": "Robert McNally", "city": "Hawaii", 	"type": "user", "gender": "M"},
+{ 	"name": "Elizabeth Minelli", 	"city": "Hawaii", 	"type": "user", "gender": "F"}, 
+{ 	"name": "Friendly Neighborhood Coder", 	"city": "Trivandrum", 	"type": "page" },
+{ 	"name": "Coddy Official", 	"city": "Haifa", 	"type": "page" }]}'''
+
+print(search(filter_query, full_json)) 
+#Should print [{'name': 'Robert McNally', 'city': 'Hawaii', 'type': 'user', 'gender': 'M'}]
