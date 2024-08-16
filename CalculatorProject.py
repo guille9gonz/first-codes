@@ -201,4 +201,3 @@ if __name__ == "__main__":
             break
         result = coordinate(original)
         print("Result:",result)
-        
