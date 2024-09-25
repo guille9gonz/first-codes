@@ -1,1 +1,2 @@
-This is my first repository, where I am pushing some Python files containing my own projects as coding practice.
+## The Beginning
+This is my first repository, where I started uploading my first programs
