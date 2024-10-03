@@ -1,2 +1,2 @@
-## The Beginning
-This is my first repository, where I started uploading my first programs
+## Practice repository 🧑‍🎓
+Used for learning new programming languages
