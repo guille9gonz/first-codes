@@ -1,1 +1,0 @@
-Gitbook to learn Go with tests (TDD)
