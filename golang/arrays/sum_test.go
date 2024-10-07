@@ -7,7 +7,7 @@ import (
 
 func TestSum(t *testing.T) {
 	t.Run("collection of 5 numbers", func(t *testing.T) {
-		numbers := []int{1, 2, 3, 4, 5} // Arrays can be initialized [n] or [] (no specifying size)
+		numbers := []int{1, 2, 3, 4, 5} // Arrays can be initialized [n] or [] (no specifying size --> slice)
 
 		got := Sum(numbers)
 		want := 15
